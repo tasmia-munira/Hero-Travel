@@ -1,0 +1,60 @@
+@media screen and (max-width: 600px) {
+    .nav-options{
+        display: none;
+    }
+
+.ham-burger {
+    display: block;
+}
+.ham-burger i {
+    font-size: 26px;
+}
+
+.explore-container h3 {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+.container {
+    margin: 3rem auto;
+}
+
+p {
+    font-size: 16px;
+}
+.explore-container h3 {
+    font-size: 26px;
+}
+
+.explore-container p {
+    width: 60%;
+}
+
+.travel-inputs {
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.travel-inputs input,
+.travel-inputs select,
+.travel-inputs button {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.tour-section,
+.row-1,
+.row-2,
+.row-3 {
+    grid-template-columns: 1fr;
+}
+
+.footer-section .logo {
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+}

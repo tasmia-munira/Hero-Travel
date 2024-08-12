@@ -128,3 +128,7 @@ input, select {
     font-weight: bold;
     cursor: pointer;
 }
+
+.ham-burger {
+    display: none;
+}
