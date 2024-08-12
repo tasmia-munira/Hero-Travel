@@ -8,7 +8,9 @@
     filter: brightness(70%);
 }
 
-.row-1, .row-2, .row-3 {
+.row-1, 
+.row-2, 
+.row-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem 0;
@@ -16,11 +18,11 @@
 }
 
 .row-2 {
-    grid-template-columns: 0.8fr, 1fr, 0.7fr;
+    grid-template-columns: 0.8fr 1fr 0.7fr;
 }
 
 .row-3 {
-    grid-template-columns: 0.75fr, 1.25fr;
+    grid-template-columns: 0.75fr 1.25fr;
 }
 
 
